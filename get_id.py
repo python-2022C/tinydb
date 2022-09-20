@@ -1,14 +1,11 @@
 from tinydb import TinyDB
 from tinydb.database import Document
-db = TinyDB('db.json')
+db = TinyDB('db_1.json')
+#Create collection
+table1 = db.table('table_1')
+
+#Print all documents
+print(table1.all())
 
 
-# Check if document exists
-if db.contains(doc_id=5):
-    # Get document
-    doc = db.get(doc_id=1)
-    # Print document
-    print(doc)
-else:
-    print('Document does not exist')
-    
+
