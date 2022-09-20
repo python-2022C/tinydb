@@ -6,3 +6,7 @@ docs = db.all()
 
 #Get length of documents
 print(len(docs))
+
+#Print first document
+print(docs[0])
+
