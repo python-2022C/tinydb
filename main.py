@@ -12,3 +12,7 @@ print(docs[0])
 
 #Print first document's name
 print(docs[0]['name'])
+
+#Through loop
+for doc in docs:
+    print(doc['name'])
