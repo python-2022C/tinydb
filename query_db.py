@@ -9,5 +9,5 @@ db.default_table_name = 'Mobile'
 #Create query object
 query = Query()
 
-#Print all documents by value
-print(db.search(query.price>="236")) 
+
+print(db.search((query.price==500) | (query.price<=190))) #OR
