@@ -7,7 +7,9 @@ db = TinyDB('data.json')
 db.default_table_name = 'Mobile'
 
 #Read all documents
-print(db.all())
+table=db.all()
+for row in table:
+    print(row['company']=='Apple')
 
 
 
