@@ -1,95 +1,100 @@
 {
-    "Mobile": {
-        "1": {
-            "model": "Galaxy S21",
-            "company": "Samsung",
-            "price": 500
+    "Mobile":{
+        "1":{
+            "model":"Galaxy S21",
+            "company":"Samsung",
+            "price":500
         },
-        "2": {
-            "model": "Galaxy S20",
-            "company": "Samsung",
-            "price": 494
+        "2":{
+            "model":"Galaxy S20",
+            "company":"Samsung",
+            "price":494
         },
-        "3": {
-            "model": "Note20 Ultra",
-            "company": "Samsung",
-            "price": 549
+        "3":{
+            "model":"Note20 Ultra",
+            "company":"Samsung",
+            "price":549
         },
-        "4": {
-            "model": "Galaxy S10+",
-            "company": "Samsung",
-            "price": 1299
+        "5":{
+            "model":"iPhone 12",
+            "company":"Apple",
+            "price":699
         },
-        "101": {
-            "model": "Galaxy S10",
-            "company": "Samsung",
-            "price": 1100
+        "99":{
+            "model":"iPhone 12 Pro",
+            "company":"Apple",
+            "price":699
         },
-        "5": {
-            "model": "iPhone 12",
-            "company": "Apple",
-            "price": 699
+        "6":{
+            "model":"iPhone SE",
+            "company":"Apple",
+            "price":399
         },
-        "99": {
-            "model": "iPhone 12 Pro",
-            "company": "Apple",
-            "price": 699
+        "7":{
+            "model":"iPhone 11",
+            "company":"Apple",
+            "price":599
         },
-        "6": {
-            "model": "iPhone SE",
-            "company": "Apple",
-            "price": 399
+        "8":{
+            "model":"Huawei P30",
+            "company":"Huawei",
+            "price":624
         },
-        "7": {
-            "model": "iPhone 11",
-            "company": "Apple",
-            "price": 599
+        "9":{
+            "model":"Huawei Mate",
+            "company":"Huawei",
+            "price":499
         },
-        "8": {
-            "model": "Huawei P30",
-            "company": "Huawei",
-            "price": 624
+        "10":{
+            "model":"Oppo Find",
+            "company":"Oppo",
+            "price":997
         },
-        "9": {
-            "model": "Huawei Mate",
-            "company": "Huawei",
-            "price": 499
+        "11":{
+            "model":"Oppo Find",
+            "company":"Oppo",
+            "price":800
         },
-        "10": {
-            "model": "Oppo Find",
-            "company": "Oppo",
-            "price": 997
+        "12":{
+            "model":"Oppo Reno",
+            "company":"Oppo",
+            "price":739
         },
-        "11": {
-            "model": "Oppo Find",
-            "company": "Oppo",
-            "price": 800
+        "13":{
+            "model":"Xiaomi Black",
+            "company":"Xiaomi",
+            "price":705
         },
-        "12": {
-            "model": "Oppo Reno",
-            "company": "Oppo",
-            "price": 739
+        "14":{
+            "model":"Xiaomi Redmi",
+            "company":"Xiaomi",
+            "price":190
         },
-        "13": {
-            "model": "Xiaomi Black",
-            "company": "Xiaomi",
-            "price": 705
+        "15":{
+            "model":"Xiaomi Redmi",
+            "company":"Xiaomi",
+            "price":236
         },
-        "14": {
-            "model": "Xiaomi Redmi",
-            "company": "Xiaomi",
-            "price": 190
+        "16":{
+            "model":"Xiaomi Redmi",
+            "company":"Xiaomi",
+            "price":236,
+            "color":"red"
         },
-        "15": {
-            "model": "Xiaomi Redmi",
-            "company": "Xiaomi",
-            "price": 236
+        "100":{
+            "name":"Samsung",
+            "price":10000,
+            "model":"Galaxy S10"
         },
-        "16": {
-            "model": "Xiaomi Redmi",
-            "company": "Xiaomi",
-            "price": 236,
-            "color": "red"
+        "101":{
+            "name":"Samsung",
+            "price":20000,
+            "model":"Galaxy S20"
+        },
+        "102":{
+            "name":"Samsung",
+            "price":30000,
+            "model":"Galaxy S30"
         }
     }
 }
