@@ -20,8 +20,18 @@
             "company": "Samsung",
             "price": 1299
         },
+        "101": {
+            "model": "Galaxy S10",
+            "company": "Samsung",
+            "price": 1100
+        },
         "5": {
             "model": "iPhone 12",
+            "company": "Apple",
+            "price": 699
+        },
+        "99": {
+            "model": "iPhone 12 Pro",
             "company": "Apple",
             "price": 699
         },
