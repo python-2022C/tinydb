@@ -9,5 +9,5 @@ db.default_table_name = 'Mobile'
 #Create query object
 query = Query()
 
-#Print all documents with color key
-print(db.search(query.color.exists()))
+#Print all documents by value
+print(db.search(query.price>="236")) 
