@@ -9,5 +9,5 @@ db.default_table_name = 'Mobile'
 #Create query object
 query = Query()
 
-print(db.search(query.company.search('Samsung')))
+print(db.search(query.model.search('S10')))
 
