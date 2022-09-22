@@ -1,4 +1,4 @@
-from tinydb import TinyDB
+from tinydb import TinyDB,Query
 from tinydb.database import Document
 
 #Read database speficied table
@@ -6,17 +6,8 @@ db = TinyDB('data.json')
 #Collection or table
 db.default_table_name = 'Mobile'
 
-#Read all documents
-table=db.all()
-for row in table:
-    #Print only Samsung
-    if row['company'] == 'Samsung':
-        print(row)
-    
+#Create query object
+query = Query()
 
-
-
-
-
-
-
+#Print all documents with color key
+print(db.search(query.color.exists()))
