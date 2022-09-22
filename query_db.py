@@ -9,7 +9,10 @@ db.default_table_name = 'Mobile'
 #Read all documents
 table=db.all()
 for row in table:
-    print(row['company']=='Apple')
+    #Print only Samsung
+    if row['company'] == 'Samsung':
+        print(row)
+    
 
 
 
