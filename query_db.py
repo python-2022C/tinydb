@@ -8,11 +8,5 @@ db.default_table_name = 'Mobile'
 
 #Create query object
 query = Query()
-
-#Add new document
-db.insert({'name':'Samsung','price':10000,'model':'Galaxy S10'})
-db.insert({'name':'Samsung','price':20000,'model':'Galaxy S20'})
-db.insert({'name':'Samsung','price':30000,'model':'Galaxy S30'})
-
-
-
+#Update id=102 price
+db.update({'price':800},doc_ids=[102,101])
