@@ -9,4 +9,4 @@ db.default_table_name = 'Mobile'
 #Create query object
 query = Query()
 #Update id=102 price
-db.update({'price':810},query.price==800)
+db.update({'color':'Gold'},query.price>=1000)
